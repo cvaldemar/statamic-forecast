@@ -16,7 +16,7 @@ It is advised to [read up on the Dark Sky API](https://darksky.net/dev/docs) to 
 * Clone this repository into `site/addons`, or use as a git submodule (recommended).
 * Set api_key in `site/settings/addons/forecast.yaml`:
 
-    api_key: YOUR_API_KEY_HERE
+        api_key: YOUR_API_KEY_HERE
 
 
 ## Configuration

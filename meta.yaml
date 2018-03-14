@@ -1,0 +1,6 @@
+name: Forecast
+version: "1.0"
+description: Adds cachable weather forecast tags using data from Dark Sky.
+url: https://github.com/cvaldemar/statamic-forecast
+developer: Casper Valdemar Poulsen
+developer_url: https://turnleft.dk

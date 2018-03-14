@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "59f70d20833a59e9059ebccd29cc155a",
+    "packages": [
+        {
+            "name": "lvht/geohash",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lvht/geohash.git",
+                "reference": "bbba3e1b487f0ec2e5e666c1bc9d1d4277990a29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lvht/geohash/zipball/bbba3e1b487f0ec2e5e666c1bc9d1d4277990a29",
+                "reference": "bbba3e1b487f0ec2e5e666c1bc9d1d4277990a29",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lvht\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "吕海涛",
+                    "email": "git@lvht.net",
+                    "homepage": "https://github.com/lvht"
+                }
+            ],
+            "description": "geohash like python-geohash",
+            "homepage": "http://github.com/lvht/geohash",
+            "keywords": [
+                "geohash"
+            ],
+            "time": "2017-08-24T11:05:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

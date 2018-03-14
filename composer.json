@@ -1,0 +1,6 @@
+{
+    "name": "cvaldemar/statamic-forecast",
+    "require": {
+        "lvht/geohash": "^1.1"
+    }
+}

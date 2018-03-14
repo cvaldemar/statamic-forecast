@@ -1,0 +1,73 @@
+fields:
+  api_key:
+    type: text
+    width: 66
+  cache_mins:
+    type: integer
+    width: 33
+    default: 10800
+  block:
+    type: select
+    options:
+      - currently
+      - minutely
+      - hourly
+      - daily
+      - alerts
+      - flags
+    width: 50
+    default: daily
+  lang:
+    type: select
+    options:
+      - ar
+      - az
+      - be
+      - bg
+      - bs
+      - ca
+      - cs
+      - da
+      - de
+      - el
+      - en
+      - es
+      - et
+      - fi
+      - fr
+      - hr
+      - hu
+      - id
+      - is
+      - it
+      - ja
+      - ka
+      - kw
+      - nb
+      - nl
+      - pl
+      - pt
+      - ro
+      - ru
+      - sk
+      - sl
+      - sr
+      - sv
+      - tet
+      - tr
+      - uk
+      - x-pig-latin
+      - zh
+      - zh-tw
+    width: 50
+    default: en
+  units:
+    type: select
+    options:
+      - auto
+      - ca
+      - uk2
+      - us
+      - si
+    width: 50
+    default: si

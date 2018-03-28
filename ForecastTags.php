@@ -71,7 +71,7 @@ class ForecastTags extends Tags
             );
         }
 
-        return json_decode($data, true)[$this->block];
+        return json_decode($data, true);
     }
 
     /**
